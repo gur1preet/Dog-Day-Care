@@ -1,6 +1,7 @@
 # DogDayCare
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+This system is designed to work as a interface between customers and day-care facilities. 
 
 ## Development server
 
