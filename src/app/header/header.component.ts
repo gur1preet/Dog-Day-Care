@@ -13,4 +13,6 @@ export class HeaderComponent implements OnInit {
   }
 
   public applicationName = "Dog Day Care";
+  
+  img = '../assets/logo.png';
 }
