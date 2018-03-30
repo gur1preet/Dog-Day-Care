@@ -1,10 +1,14 @@
-<div class="container">
-  <div class="row">
-      <div class="col-md-6" ng-init="myVar = '../../Assets/logo.png'">
-          <img src="{{img}}">
-      </div>
-      <div class="col-md-6">
-          <h1>{{applicationName}}</h1>
-      </div>
-  </div>
-</div>
+<nav class="navbar">
+    <div class="container">
+        <a class="navbar brand" href="#"></a>
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#"><img src="../../assets/logo.png" height="30" width="41"></a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a routerLink="/home"></a></li>
+            <li><a routerLink="/description">Description</a></li>
+            <li><a routerLink="/services">Services</a></li>
+            <li><a routerLink="/contact-us">Contact Us</a></li>
+        </ul>
+    </div>
+</nav>
