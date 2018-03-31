@@ -10,7 +10,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { DescriptionComponent } from './description/description.component';
 import { ServicesComponent } from './services/services.component';
-
+import {Ng2CarouselamosModule } from 'ng2-carouselamos';
 
 @NgModule({
   declarations: [
@@ -24,7 +24,8 @@ import { ServicesComponent } from './services/services.component';
   imports: [
     BrowserModule,
     NgbModule,
-    AppRoutingModule
+    AppRoutingModule,
+    Ng2CarouselamosModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -22,10 +22,12 @@
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
     "@ng-bootstrap/ng-bootstrap": "^1.0.1",
+    "angular2-carousel": "^1.0.13",
     "bootstrap": "^4.0.0",
     "core-js": "^2.4.1",
+    "ng2-carouselamos": "^3.2.0",
     "ngx-bootstrap": "^2.0.3",
-    "npm": "^5.7.1",
+    "npm": "^5.8.0",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },
